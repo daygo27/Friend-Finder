@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+
+
+            <span class="border-0">
+        <h2>Survey Questions</h2>
+        <hr>
+        </span>
+
+            <h3> About You</h3>
+            <h4>Name (Required)</h4>
+            <input type="text" id="userName" class="form-control" required>
+            <h4>Link to Photo Image (Required)</h4>
+            <input type="text" id="userPhoto" class="form-control" required>
+            <hr>
+            <h3>Question 1</h3>
+            <h4>You think about Mario when you encounter Italian foods?</h4>
+            <select class="select-options" id="q1">
+                <option value></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option></select>
+
+            <h3>Question 2</h3>
+            <h4>Captain Planet is your hero, does he brings pollution down to zero?</h4>
+            <select class="select-options" id="q2">
+                <option value></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h3>Question 3</h3>
+            <h4>If you had an airfryer, you would be strongly satisfied with how "fried chicken" would come out versus the regular frying method?</h4>
+            <select class="select-options" id="q3">
+                <option value></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h3>Question 4</h3>
+            <h4>The Winter Olympics is an important event to watch first hand?</h4>
+            <select class="select-options" id="q4">
+                <option value></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h3>Question 5</h3>
+            <h4>An IPAD would satisfy your visual media cravings versus a regular television?</h4>
+            <select class="select-options" id="q5">
+                <option value></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h3>Question 6</h3>
+            <h4>You would bring a bottle to the gym that has the words CTO Recanalization Catheter without the slightest hesitation?</h4>
+            <select class="select-options" id="q6">
+                <option value></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h3>Question 7</h3>
+            <h4>A Pikachu would make a great pet?</h4>
+            <select class="select-options" id="q7">
+                <option value></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h3>Question 8</h3>
+            <h4>You prefer to use dumbbells over barbells in all pressing movements?</h4>
+            <select class="select-options" id="q8">
+                <option value></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h3>Question 9</h3>
+            <h4>Et tu, Brute?</h4>
+            <select class="select-options" id="q9">
+                <option value></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h3>Question 10</h3>
+            <h4>あなた は ワイン を　のみます か?</h4>
+            <select class="select-options" id="q10">
+                <option value></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+    </div>
+    <div id="submitButton">
+        <br>
+        <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+     Submit</button>
+    </div>
+    <footer class="footer">
+        <div class="container">
+
+            <p><a href="/api/friends">API Friends List</a> |
+                <a href="https://github.com/daygo27">Github Repo</a>
+            </p>
+        </div>
+
+
+    </footer>
+
+    <!-- //Materialize Modal content -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Your new best friend is</h4>
+            <h5 id="userMatch"></h5>
+            <img id="userMatchImage" src="" width="250px">
+        </div>
+        <div class="modal-footer">
+            <a href="/survey" class=" modal-action modal-close waves-effect waves-green btn-flat">Done</a>
+        </div>
+    </div>
+
+    </div>
+
+    <script type="text/javascript">
+        $("#submit").on("click", function(event) {
+            event.preventDefault();
+            console.log(function(event) {});
+            var userInput = {
+                name: $("#userName").val().trim(),
+                photo: $("#userPhoto").val().trim(),
+                scores: [
+                    $('#q1').val().trim(),
+                    $('#q2').val().trim(),
+                    $('#q3').val().trim(),
+                    $('#q4').val().trim(),
+                    $('#q5').val().trim(),
+                    $('#q6').val().trim(),
+                    $('#q7').val().trim(),
+                    $('#q8').val().trim(),
+                    $('#q9').val().trim(),
+                    $('#q10').val().trim()
+                ]
+            };
+            console.log(userInput);
+            //var currentURL = window.location.origin;
+
+            // Add user inputs to friends list
+            $.post('/api/friends', userInput)
+                .done(function(data) {
+
+                    $('#userMatch').html(data.matchName);
+                    $("#userMatchImage").attr("src", data.matchImage);
+                    // Pop open the modal dialog
+                    $("#modal1").modal("show");
+                });
+            return false;
+        });
+    </script>
+</body>
+
+</html>
